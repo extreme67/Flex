@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="assets/icon.png" type="image/png" />
+    <title>Страничка</title>
+
+    <link rel="stylesheet" href="assets/normolize-flex.css" />
+    <link rel="stylesheet" href="assets/style-flex.css" />
+
+    <style>
+      .header,
+      .left,
+      .name1,
+      .right {
+        padding: 20px 10px;
+      }
+
+      .flex-conteiner,
+      .main,
+      .div {
+        display: flex;
+      }
+
+      .name1,
+      .footer {
+        margin: 10px 10px;
+      }
+
+      .body {
+        background-color: rgb(199, 247, 231);
+        width: 800px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+      }
+
+      .main {
+        align-self: center;
+        flex-grow: 1;
+      }
+
+      .left {
+        background-color: rgb(248, 225, 248);
+        align-self: center;
+        flex-grow: 1;
+      }
+
+      .name {
+        padding-top: 15px;
+        padding-bottom: 30px;
+      }
+
+      .name1 {
+        background-color: rgb(229, 182, 252);
+        align-self: center;
+        flex-grow: 1;
+      }
+
+      .right {
+        background-color: rgb(164, 231, 240);
+        flex-wrap: wrap;
+        align-items: stretch;
+        width: 300px;
+      }
+
+      .footer {
+        background-color: azure;
+        padding: 20px 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="body">
+      <header class="header">[Шапка страницы]</header>
+
+      <main class="main">
+        <div class="left">
+          <div class="name">[Оснавная часть]</div>
+          <div class="div">
+            <div class="name1">[Еще 1]</div>
+            <div class="name1">[Еще 2]</div>
+          </div>
+          <div class="name1">[Еще 3]</div>
+        </div>
+        <aside class="right">[Боковая область]</aside>
+      </main>
+
+      <footer class="flex-conteiner">
+        <div class="footer">[Секция футера 1]</div>
+        <div class="footer">[Секция футера 2]</div>
+        <div class="footer">[Секция футера 3]</div>
+        <div class="footer">[Секция футера 4]</div>
+      </footer>
+    </div>
+  </body>
+</html>

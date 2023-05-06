@@ -1,0 +1,85 @@
+nav,
+h1,
+p {
+  color: #192040;
+  font-family: "Roboto", Times, sans-serif;
+  font-style: normal;
+}
+
+nav {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+ }
+
+
+h1 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 130%;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.menu {
+  text-decoration: none;
+  padding: 4px; 
+
+}
+
+.menu:hover {
+  text-decoration: underline;
+}
+
+.menu:active {
+  color: #ff2e51;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #ff2e51;
+  border-radius: 50px;
+  font-family: "Roboto", Times, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  width: 200px;
+  height: 40px;
+
+
+}
+
+.button:focus {
+  color: #192040;
+}
+
+.company-name {
+  padding: 50px;
+  margin: 10px;
+}
+
+
+
+#logo {
+  width: 136.4px;
+  height: 124px;
+}
+
+.name {
+  padding: 10px 150px;
+  display: flex;
+  justify-content: start;
+  align-content: center;
+}
+
+.main-nemu {
+  padding: 10px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
